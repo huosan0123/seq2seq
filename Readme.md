@@ -3,6 +3,7 @@ I write a attention-based seq2seq model for neural machine translation. It can r
 
 #### 1. data
 My data was downloaded from nlp.stanford.edu/projects/nmt/. Trained on small dataset english-Vietnamese.
+Pickle data is avaliable if you want
 
 #### 2. script explanation:
 0. `build_dict.py`  preprocess dataset. I preprocessed input dataset into pickle files. Transfer string into int32, filter length(3~50). Note your file path.
